@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="100" fill="url(#grad1)" />
+  <!-- School Roof / Pediment -->
+  <path d="M 256 80 L 100 180 L 412 180 Z" fill="url(#gold)" />
+  <!-- Columns -->
+  <rect x="130" y="200" width="36" height="150" rx="6" fill="#f8fafc" />
+  <rect x="200" y="200" width="36" height="150" rx="6" fill="#f8fafc" />
+  <rect x="276" y="200" width="36" height="150" rx="6" fill="#f8fafc" />
+  <rect x="346" y="200" width="36" height="150" rx="6" fill="#f8fafc" />
+  <!-- Base -->
+  <rect x="100" y="360" width="312" height="30" rx="6" fill="url(#gold)" />
+  <!-- Asset QR / Box Badge in Center Bottom -->
+  <circle cx="256" cy="380" r="70" fill="#2563eb" stroke="#ffffff" stroke-width="12" />
+  <!-- Barcode / QR Icon -->
+  <path d="M 230 355 h 15 v 15 h -15 z M 265 355 h 15 v 15 h -15 z M 230 390 h 15 v 15 h -15 z M 265 390 h 15 v 15 h -15 z M 248 372 h 14 v 14 h -14 z" fill="#ffffff" />
+</svg>

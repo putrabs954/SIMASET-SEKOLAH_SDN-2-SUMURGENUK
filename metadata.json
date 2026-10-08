@@ -1,0 +1,10 @@
+{
+  "name": "SIMASET SEKOLAH",
+  "description": "Sistem Informasi Manajemen Aset Sekolah: Pencatatan aset tetap, inventaris ruangan, barang habis pakai, peminjaman, pemeliharaan, mutasi, QR code, dan pelaporan.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
